@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+body{
+    background-color: maroon;
+}
+.table2 .TD{
+    padding-top: 8%;
+}
+
+.navbar:hover{
+    background-color: maroon;
+    transition: 2s;
+}
+ .container {
+    width: 1300px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin: 1px auto;
+
+}
+
+.logo a {
+    color: white;
+    font-size: 60px;
+    font-weight: 300;
+    margin-left: -300px;
+    padding-bottom: 88px;
+    display: inline-block;
+    font-family: Edwardian Script ITC;
+
+}
+
+.menu{
+    padding-top: 10px;
+}
+
+.menu li {
+    display: inline-block;
+    box-shadow: 10px 5px 5px maroon;
+}
+.menu li a:hover {
+    color: black;
+}
+
+.home .centre {
+    color: white;
+    margin: auto 120px;
+}
+
+.navbar{
+    width: 100%;
+    background-color: orange;
+    position: fixed;
+    padding: 15px;
+    text-align: center;
+    height: 100px;
+}
+
+.menu li a{
+    color: white;
+    font-size: 40px;
+    font-weight: 200;
+    margin-left: 35px;
+    transition: maroon 2s;
+    font-family: Pristina;
+
+}
+.sous{
+    display: none;
+    position: absolute;
+}
+.menu li:hover .sous{
+    display: block;
+}
+.sous li{
+    font-size: 34px;
+    width: 70%;
+    text-align: center;
+    background-color: maroon;
+    margin-left: -40px;
+    border: 5px solid maroon;
+    color: white;
+
+}
+.home{
+    display: flex;
+    margin-top: 10px;
+    background-image: url(../multimedia/images/free.jpg);
+}
+.logo a span{
+    font-size: 95px;
+    font-family: Pristina;
+    color: black;
+}
+.logo a span:hover{
+    font-size: 90px;
+    color: black;
+
+}
+.mu2{
+   padding-left: 70%;
+   font-size: 19px;
+   padding-top: 10px;
+}
+
+table {
+    text-align: center;
+    
+    width: 100%;
+    height: 70%;
+    align-content: center;
+    margin-bottom: 107px;
+}
+
+*************************************************************
+.final {
+    width: 100%;
+} 
+footer .final {
+    width: 100%;
+    height: 100px;
+    background-color: orange;
+    margin-top: 250px;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+   
+}
+footer .final p{
+     font-family: Arial Black;
+}
